@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/deep_orange__50"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" 
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"     
+    android:padding="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:id="@+id/tv_difficulty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="@dimen/margin_bottom_difficulty"
+        android:text="@string/title_dialog_difficulty"
+        android:textSize="@dimen/title_custom"/>
+
+    <TextView
+        android:id="@+id/categoria"
+        android:layout_marginBottom="@dimen/margin_bottom_difficulty"        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/subhead2"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/btn_b1"
+    	android:layout_marginLeft="@dimen/margin_left_dialog"
+    	android:layout_marginRight="@dimen/margin_right_dialog"        
+        android:textColor="@android:color/white"
+        android:layout_width="@dimen/width_button_dialog"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        style="@style/CustomButton"
+        android:layout_marginBottom="@dimen/margin_bottom_difficulty_btn"   
+        android:text="@string/btn_b1_text"/>
+
+    <Button
+        android:id="@+id/btn_b2_excl"
+        android:textColor="@android:color/white"        
+        android:layout_width="@dimen/width_button_dialog"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        style="@style/CustomButton"
+        android:layout_marginBottom="@dimen/margin_bottom_difficulty_btn"          
+        android:text="@string/btn_b2excl_text"/>
+
+    <Button
+        android:id="@+id/btn_c1_excl"
+        android:textColor="@android:color/white"        
+        android:layout_width="@dimen/width_button_dialog"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        style="@style/CustomButton"
+        android:layout_marginBottom="@dimen/margin_bottom_difficulty_btn"    
+        android:text="@string/btn_c1excl_text"/>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- Custom  -->
+    <color name="deep_orange__50">#fbe9e7</color>
+    <color name="deep_orange__100">#ffccbc</color>
+    <color name="deep_orange__200">#ffab91</color>    
+    <color name="deep_orange__300">#ff8a65</color>    
+    <color name="deep_orange__400">#ff7043</color>    
+    <color name="deep_orange__500">#ff5722</color><!-- Primary -->
+    <color name="deep_orange__600">#f4511e</color>
+    <color name="deep_orange__700">#e64a19</color>
+    <color name="deep_orange__800">#d84315</color>
+    <color name="deep_orange__900">#bf360c</color>    
+    
+    <color name="backgroud_user">#EEEEEE</color>    
+    <color name="transparent">#00000000</color>
+    <color name="gray">#666666</color>          
+    <color name="gray_line">#CCC</color>
+    <color name="second">#F5F4F4</color>
+    
+    <!-- Extras -->
+    <color name="apptheme_color">#ff9800</color>
+    
+    <!-- Letter -->
+    <color name="green_500">#4caf50</color>
+    <color name="red_500">#f44336</color>
+    
+    <!-- Extras -->
+    <color name="indigo">#03a9f4</color>
+    <color name="light_green">#8bc34a</color>
+    <color name="pink">#e91e63</color>
+    <color name="purple">#9c27b0</color>
+    <color name="cyan">#00bcd4</color>
+        
+    <color name="main">#F47878</color>
+    <color name="resultado">#ff9800</color>
+    <color name="setting">#94CF97</color> 
+</resources>

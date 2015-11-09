@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <!-- sonido -->
+    <PreferenceCategory android:title="@string/sonido">
+       
+	    <CheckBoxPreference
+	        android:defaultValue="false"
+	        android:key="pref_sound"
+	        android:title="Sonido" />
+                                                 
+    </PreferenceCategory>    
+    <!-- Info -->
+    <PreferenceCategory android:title="@string/pref_acerca_de">
+       
+        <Preference
+            android:key="prefVersion" 
+            android:title="@string/pref_version"
+            android:selectable="false"
+            android:enabled="false"/>
+        
+        <Preference 
+            android:key="prefDevelop"
+            android:title="@string/pref_develop" 
+            android:summary="Roger Patiño"
+            android:selectable="false"
+            android:enabled="false"/>   
+                    
+        <Preference 
+            android:key="prefColaborador"
+            android:title="@string/pref_colaborador"
+            android:summary="Diego Martinez"
+            android:selectable="false"
+            android:enabled="false"/>  
+                  
+        <Preference 
+            android:key="prefColaborador"
+            android:title="Analista Informativo"            
+            android:summary="José León"
+            android:selectable="false"
+            android:enabled="false"/>       
+                    
+    </PreferenceCategory>  
+      
+</PreferenceScreen>

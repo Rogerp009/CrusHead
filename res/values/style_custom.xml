@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="ButtonAppTheme" parent="android:Widget.Holo.Light.Button">
+	  <item name="android:background">@drawable/apptheme_btn_default_holo_light</item>
+  </style>
+
+  <style name="ImageButtonAppTheme" parent="android:Widget.Holo.Light.ImageButton">
+	  <item name="android:background">@drawable/apptheme_btn_default_holo_light</item>
+  </style>
+
+    <style
+        name="CustomDialogStyle" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="noAnimTheme" parent="android:Theme">
+        <item name="android:windowAnimationStyle">@null</item>
+    </style> 
+    
+    <style name="CustomButton">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:height">50dp</item>
+        <item name="android:width">150dp</item>
+        <item name="android:textSize">@dimen/button</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+</resources>

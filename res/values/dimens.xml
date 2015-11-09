@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Custon Font Size -->
+    <dimen name="button">14sp</dimen>
+    <dimen name="caption">12dp</dimen>
+    <dimen name="body1">14sp</dimen><!-- Regular -->
+    <dimen name="body2">14sp</dimen><!-- Medium -->
+    <dimen name="subhead">16sp</dimen>
+    <dimen name="subhead2">18sp</dimen>
+    <dimen name="title">20sp</dimen>
+    <dimen name="headline">24sp</dimen>
+    <dimen name="display1">34sp</dimen>
+    <dimen name="display2">45sp</dimen>
+    <dimen name="display3">56sp</dimen>
+    <dimen name="display4">112sp</dimen>
+      
+    <!-- Font Extras -->
+    <dimen name="title_custom">26sp</dimen>
+    <dimen name="title_custom_2">30sp</dimen>
+    
+    <!-- Botton Width Dialog-->
+    <dimen name="width_button_dialog">170dp</dimen>
+    <dimen name="margin_left_dialog">40dp</dimen>
+    <dimen name="margin_right_dialog">40dp</dimen> 
+    
+    <!-- Layout Category -->
+    <dimen name="margin_to_categoty_fragment">70dp</dimen>
+    <dimen name="margin_left_categoty_fragment">16dp</dimen>
+    <dimen name="margin_right_categoty_fragment">16dp</dimen>
+    
+    <!-- Layout Container -->
+    <dimen name="padding_to_container">70dp</dimen>
+
+    <!-- Layout Dialog Difficulty -->
+    <dimen name="margin_bottom_difficulty">25dp</dimen>
+    <dimen name="margin_bottom_difficulty_btn">15dp</dimen>
+</resources>
